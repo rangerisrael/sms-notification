@@ -1,0 +1,32 @@
+{
+	"name": "express-vercel",
+	"version": "1.0.0",
+	"description": "Deploy express js to vercel.",
+	"main": "index.js",
+	"engines": {
+		"node": "16.x"
+	},
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rangerisrael/express-vercel-api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rangerisrael/express-vercel-api/issues"
+	},
+	"homepage": "https://github.com/rangerisrael/express-vercel-api",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.17.1",
+		"semaphore-sms-api": "^1.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
